@@ -1,0 +1,4 @@
+.idea/
+venv/
+scripts/*.pyc
+scripts/ground_input.py

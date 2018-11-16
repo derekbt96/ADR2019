@@ -1,0 +1,25 @@
+On the Jetson, before doing anything you need to configure git to use your user account:
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+ # update local repository to current version
+git pull
+ # do changes in your files
+ # see what has changed
+git status
+ # add files to current commit
+git add somefile
+ # verify with
+git status
+ # it states that you are still up to date with origin/master (because you have not commited yet)
+ # commit changes
+git commit -m "a useful message"
+ # now you are one commit ahead of your master
+ # If the master has not changed since, you can push them directly to the master. If the master has changed, you will get an error saying that there are remote changes. Try
+git push
+ # Either, you are done now or you received the error. If it was not successful fetch the current master status and merge it with
+git pull
+ # If there are conflicts, they might have to be resolved manually. Now you are 2 commits ahead of the origin but it's merged as you can see in 
+git status
+ # Now, move your changes to the master
+git push
