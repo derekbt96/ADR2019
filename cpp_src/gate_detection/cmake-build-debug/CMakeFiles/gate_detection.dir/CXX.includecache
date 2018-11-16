@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matt/catkin_ws/src/bebop_auto/cpp_src/gate_detection/main.cpp
+iostream
+-
+tensorflow/c/c_api.h
+-
+

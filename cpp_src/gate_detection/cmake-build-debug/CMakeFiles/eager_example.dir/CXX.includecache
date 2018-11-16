@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matt/catkin_ws/src/bebop_auto/cpp_src/gate_detection/eager_example.cpp
+tensorflow/cc/client/client_session.h
+/home/matt/catkin_ws/src/bebop_auto/cpp_src/gate_detection/tensorflow/cc/client/client_session.h
+tensorflow/cc/ops/standard_ops.h
+/home/matt/catkin_ws/src/bebop_auto/cpp_src/gate_detection/tensorflow/cc/ops/standard_ops.h
+tensorflow/core/framework/tensor.h
+/home/matt/catkin_ws/src/bebop_auto/cpp_src/gate_detection/tensorflow/core/framework/tensor.h
+

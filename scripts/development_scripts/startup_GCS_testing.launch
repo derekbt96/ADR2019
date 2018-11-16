@@ -1,0 +1,9 @@
+<launch>
+  <node name="state_machine_node" pkg="bebop_auto" type="state_machine.py" respawn="true"/>
+  <node name="ground_output_node" pkg="bebop_auto" type="ground_output.py" respawn="true"/>
+  <node name="driving_node" pkg="bebop_auto" type="driving.py" respawn="true"/>
+  <node name="path_planner_blind_node" pkg="bebop_auto" type="path_planner_blind.py" respawn="true"/>
+  <node name="odometry_merger_node" pkg="bebop_auto" type="odometry_merger.py" respawn="true"/>
+  <node name="gate_crossing_detection_node" pkg="bebop_auto" type="gate_crossing_detection.py" respawn="true"/>
+  <node name="navigation_node" pkg="bebop_auto" type="navigation.py" respawn="true"/>
+</launch>

@@ -1,0 +1,6 @@
+<launch>
+  <node name="driving_node" pkg="bebop_auto" type="driving.py" respawn="true"/>
+  <node name="odometry_merger_node" pkg="bebop_auto" type="odometry_merger.py" respawn="true"/>
+  <node name="gate_detection_node" pkg="bebop_auto" type="gate_detection.py" respawn="true"/>
+  <node name="main_navigation_node" pkg="bebop_auto" type="main_navigation.py" respawn="true"/>
+</launch>

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/matt/catkin_ws/src/bebop_auto/cpp_src/gate_detection/cmake-build-debug/gtest/gtest/src -Wl,-rpath,/home/matt/catkin_ws/src/bebop_auto/cpp_src/gate_detection/cmake-build-debug/gtest/gtest/src -lpthread 
